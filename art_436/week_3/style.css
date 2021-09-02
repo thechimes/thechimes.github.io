@@ -1,4 +1,12 @@
 body{
 	font-family: 'Palanquin', sans-serif;
 	font-weight: 300;
+	background-color:#2A3D66;
+}
+h1{
+	color:#D789D7;
+}
+
+h2{
+	color:#9D65C9;
 }
