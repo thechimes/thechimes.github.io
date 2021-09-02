@@ -10,3 +10,9 @@ h1{
 h2{
 	color:#9D65C9;
 }
+
+canvas{
+	background-color: #5D54A4;
+	height:30%;
+	width:60%;
+}
