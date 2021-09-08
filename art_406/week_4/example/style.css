@@ -1,15 +1,17 @@
 /*TEXT STYLES*/
-p{font-family: 'Palanquin', sans-serif; margin:0;}
+p, body{font-family: 'Palanquin', sans-serif;}
 h1, h2{font-family: 'Playfair Display', serif;color:#261132;}
 a{text-decoration: none;font-weight: bold;color:#3E2F5B;}
 
 /*SECTION STYLES*/
-body{background-color: #FFF5EB;}
+body{background-color: #FFF5EB;margin:0;}
 header{width:60%;margin:auto;}
 article{width:60%;margin:auto;}
-#image{}
-#ingredients{width:60%;}
+#image{width: 40%;margin-right: 25px;float:left; background-color: red;}
+#note{width: 50%;float:left; background-color: red;}
+#note p{margin-top:0;padding-top: 0;}
+#ingredients{width:60%;clear:both;}
 #directions{width:60%;}
 
 /*IMAGE STYLES*/
-img{width:30%;margin-right: 25px;}
+img{width:100%;}
