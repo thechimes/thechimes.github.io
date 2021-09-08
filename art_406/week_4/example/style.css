@@ -12,9 +12,9 @@ body{background-color: #FFEBD6;margin:0;}
 header{width:70%;margin:auto;}
 article{width:70%;margin:auto;}
 ul{padding-inline-start: 0px;}
-#recipe-info{display: flex;}
-#image{width: 40%;margin-right: 25px;float:left;}
-#note{width: 50%;float:left;}
+#recipe-info{display: flex; padding-bottom:30px;}
+#image{width: 30%;margin-right: 5%;float:left;}
+#note{width: 65%;float:left;}
 #note p{margin-top:0;padding-top: 0;}
 #ingredients{padding:0 30px;clear:both;border-top: 2px dashed #BA5C12;border-bottom: 2px dashed #BA5C12;background-color:#FFF5EB;}
 #directions{padding:30px; margin:0;clear:both;background-color:#5B4587;color:white;border-bottom: 2px dashed white;}
