@@ -2,16 +2,23 @@
 p, body{font-family: 'Palanquin', sans-serif;}
 h1, h2{font-family: 'Playfair Display', serif;color:#261132;}
 a{text-decoration: none;font-weight: bold;color:#3E2F5B;}
+ul li{list-style-type: none;padding-top: 5px;padding-bottom: 5px;border-bottom: 1px solid;border-color: #3E2F5B;}
+ul li:last-child{border-bottom: none;}
+#directions h2{color:#E0CA3C;margin-top: 0;}
+.lead{font-family:'Playfair Display', serif;line-height: 2em;font-size: 1.5em;color:#BA5C12;}
 
 /*SECTION STYLES*/
-body{background-color: #FFF5EB;margin:0;}
-header{width:60%;margin:auto;}
-article{width:60%;margin:auto;}
-#image{width: 40%;margin-right: 25px;float:left; background-color: red;}
-#note{width: 50%;float:left; background-color: red;}
+body{background-color: #FFEBD6;margin:0;}
+header{width:70%;margin:auto;}
+article{width:70%;margin:auto;}
+ul{padding-inline-start: 0px;}
+#recipe-info{display: flex;}
+#image{width: 40%;margin-right: 25px;float:left;}
+#note{width: 50%;float:left;}
 #note p{margin-top:0;padding-top: 0;}
-#ingredients{width:60%;clear:both;}
-#directions{width:60%;}
+#ingredients{padding:0 30px;clear:both;border-top: 2px dashed #BA5C12;border-bottom: 2px dashed #BA5C12;background-color:#FFF5EB;}
+#directions{padding:30px; margin:0;clear:both;background-color:#5B4587;color:white;border-bottom: 2px dashed white;}
+#recipe-notes{background-color: #E0CA3C;padding:30px;}
 
 /*IMAGE STYLES*/
 img{width:100%;}
