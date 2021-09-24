@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+#canvasDiv {
+  display: block;
+  overflow:hidden;
+  position:absolute;
+  top:0;
+  right:0;
+  z-index:-1;
+  	background-color: #5D54A4;
+	height:100%;
+	width:100%;
+}
+body{
+	font-family: 'Palanquin', sans-serif;
+	font-weight: 300;
+	background-color:#2A3D66;
+	margin: auto;
+}
+
+header{
+	float:left;
+	width:30%;
+	padding: 50px;
+}
+
+h1{
+	color:#D789D7;
+}
+
+h2{
+	color:#9D65C9;
+}
+
+p{
+	font-style: italic;
+}
+
+footer{
+	clear:both;
+}
+
+a {
+	color: white;
+}S
