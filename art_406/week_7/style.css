@@ -13,7 +13,7 @@ header{width:70%;margin:auto;}
 article{width:70%;margin:auto;}
 ul{padding-inline-start: 0px;}
 #recipe-info{display: flex; padding-bottom:30px;}
-#image{width: 30%;margin-right: 5%;float:left;}
+#image {width: 50%;float: left;margin-right: 20px;}
 #note{width: 65%;float:left;}
 #note p{margin-top:0;padding-top: 0;}
 #ingredients{padding:0 30px;clear:both;border-top: 2px dashed #BA5C12;border-bottom: 2px dashed #BA5C12;background-color:#FFF5EB;}
