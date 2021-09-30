@@ -14,11 +14,11 @@ article{width:48%;float:left;margin:auto;}
 ul{padding-inline-start: 0px;}
 #recipe-info{display: flex; padding-bottom:30px;}
 #image {width: 50%;float: left;margin-right: 20px;}
-#note{float:left;}
+#note{width:100%;}
 #note p{margin-top:0;padding-top: 0;}
 #ingredients{float:left;width:44%;padding:0 30px;clear:both;border-top: 2px dashed #BA5C12;border-bottom: 2px dashed #BA5C12;background-color:#FFF5EB;}
-#directions{float:left;width:44%;padding:30px; margin:0;clear:both;background-color:#5B4587;color:white;border-bottom: 2px dashed white;}
-#recipe-notes{background-color: #E0CA3C;padding:30px;}
+#directions{float:left;width:42%;padding:30px; margin:0;clear:both;background-color:#5B4587;color:white;border-bottom: 2px dashed white;}
+#recipe-notes{background-color: #E0CA3C;padding:30px;clear:both;width:100%;}
 
 /*IMAGE STYLES*/
 img{width:100%;}
