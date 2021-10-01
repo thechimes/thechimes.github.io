@@ -8,7 +8,7 @@ ul li:last-child{border-bottom: none;}
 .lead{font-family:'Playfair Display', serif;line-height: 2em;font-size: 1.8em;color:#BA5C12;}
 
 /*SECTION STYLES*/
-body{background-color:red;margin:0;}
+body{background-color: #FFEBD6;margin:0;}
 #main{width:75%;margin:auto;}
 header h1{font-size:3em;}
 article{width:48%;float:left;margin-left:1%;}
