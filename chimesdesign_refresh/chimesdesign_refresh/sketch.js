@@ -13,10 +13,11 @@ function setup() {
   rectMode(CENTER);
   frameRate(fr);
 
+
 }
 
 function draw(){
-var bgColor = color('#9f447a');
+var bgColor = color(159,68,122);
       background(bgColor);
 
   for (var c = 0; c < cols; c++){
@@ -46,7 +47,7 @@ var bgColor = color('#9f447a');
 
 function dancingRectanglesSame(){
         var dance = angle + random(1,20);
-      var rectColor = color('#d4b1d4');
+      var rectColor = color(212,177,212, 70);
 
         push();
         rotate(dance);
@@ -58,7 +59,7 @@ function dancingRectanglesSame(){
 }
 
 function dancingRectangles(){
-      var rectColor = color('#d4b1d4');
+      var rectColor = color(212,177,212, 70);
 
         push();
         rotate(angle);
