@@ -1,0 +1,59 @@
+/*TEXT STYLES*/
+p, body{font-family: 'Palanquin', sans-serif;}
+h1, h2{font-family: 'Playfair Display', serif;color:#261132;}
+a{text-decoration: none;font-weight: bold;color:#3E2F5B;}
+a:hover{background-color:#3E2F5B;color:#FFF5EB;}
+ul li{list-style-type: none;padding-top: 5px;padding-bottom: 5px;border-bottom: 1px solid;border-color: #3E2F5B;}
+ul li:last-child{border-bottom: none;}
+#directions h2{color:#E0CA3C;margin-top: 0;}
+.lead{font-family:'Playfair Display', serif;line-height: 2em;font-size: 1.8em;color:#BA5C12;}
+
+/*SECTION STYLES*/
+body{background-color: #FFEBD6;margin:0;}
+#main{width:75%;margin:auto;}
+header h1{font-size:3em;}
+article{width:48%;float:left;margin-left:1%;}
+ul{padding-inline-start: 0px;}
+#top{background-color:transparent;}
+#recipe-info{display: block; padding-bottom:30px;width:100%;}
+#image {display:block;width: 49%;float: left;margin-right: 1%;background-image: url('img/cookies.jpg');background-size:cover;min-height:800px;}
+#note{width:100%;}
+#note p{margin-top:0;padding-top: 0;}
+#recipe-notes{margin-top:30px;border-top: 2px dashed #E0CA3C;}
+.row{width:100%; clear:both; display:block;background-color:#FFF5EB; overflow:auto;}
+#ingredients{width:45%;display:block;float:left;padding:0 2%;clear:both;border-top: 2px dashed #BA5C12;}
+#directions{width:47%;display:block;float:left;padding:2%; margin:0;;background-color:#5B4587;color:white;}
+#footer{text-align: center;background-color:#E0CA3C; border-top: 2px dashed white;}
+
+
+/*IMAGE STYLES*/
+img{width:100%;}
+
+/*-------------Media Queries------------*/
+/*small desktop*/
+@media only screen and (max-width: 1316px){
+	/*body{background-color:purple;}*/
+	#main{width:100%;}
+}
+
+@media only screen and (max-width: 990px){
+	/*body{background-color:purple;}*/
+	#main{width:75%;}
+	#image {display:block;width: 100%;}
+	article{width:96%;padding:2%;}
+	#directions{width:100%;display:block;padding:2%; ;background-color:#5B4587;color:white;}
+	#ingredients{width:100%;display:block;padding:0 2%;clear:both;border-top: 2px dashed #BA5C12;}
+	header {display:block;position: absolute;top:0;left:0; width:100%;text-align:center;background-color: #FFEBD6;z-index: 2;}
+	article{margin:0;width:100%;padding:0;}
+	#directions{width:96%;display:block;padding:2%; ;background-color:#5B4587;color:white;}
+	#ingredients{width:95%;display:block;padding:0 2%;clear:both;border-top: 2px dashed #BA5C12;}
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 500px){
+	/*body{background-color:red;}*/
+	#image {display:block;width: 100%;min-height:400px;}
+	#main{width:100%;}
+	/*article{margin:0;width:100%;padding:0;}*/
+}
