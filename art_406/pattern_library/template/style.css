@@ -1,0 +1,40 @@
+/*Pattern Library Document Styles*/
+header, section{
+	margin:auto;
+	width:50%;}
+
+section{
+	border-bottom:1px solid gray;
+	padding:50px;
+}
+
+#typography{
+	padding-top:0;
+}
+
+#navigation{
+	border-bottom:0;
+}
+
+/*Typography Styles*/
+#title{font-size: 4em;}
+
+.section-head{
+	text-decoration: underline;
+	padding-top:25px;
+}
+
+/*Color Palette*/
+.palette{
+	display: inline-block;
+	width: 18.5%;
+	background-color: gray;
+	color:white;
+	text-align: center;
+	padding:10% 0;
+	margin-right:1%;
+}
+
+/*Navigation Styles*/
+
+/*Additional Styles—add if necessary*/

@@ -1,0 +1,123 @@
+/*Pattern Library Document Styles*/
+header, section{
+	margin:auto;
+	width:50%;}
+
+section{
+
+	padding:25px;
+}
+
+#typography{
+	padding-top:0;
+}
+
+#navigation{
+	border-bottom:0;
+}
+
+/*Typography Styles*/
+#title{font-size: 5.61rem; line-height: 1;}
+
+.section-head{
+	border-bottom:3px solid #4F4F4F;
+	color:#469D8B;
+}
+
+body{font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color:#4F4F4F;}
+
+h1{
+	font-family: 'Palanquin Dark', sans-serif;
+	line-height: 1.2;
+	font-size:3.157rem;
+}
+
+h2{
+font-size: 2.369rem;
+font-weight:400;
+}
+
+h3{
+font-size:1.777rem;
+font-weight: 400;
+}
+
+h4{
+font-size: 1.333rem;
+font-family: 'Palanquin Dark', sans-serif;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+h5{
+font-size: 1.2rem;
+font-family: 'Palanquin Dark', sans-serif;
+}
+
+a{
+	color:black;
+	padding:2px 4px;
+
+}
+
+a:hover{
+	color:white;
+	background-color: gray;
+}
+
+/*Color Palette*/
+.palette{
+	display: inline-block;
+	width: 18.5%;
+	background-color: gray;
+	color:white;
+	text-align: center;
+	padding:10% 0;
+	margin-right:3px;
+	margin-bottom: 10px;
+}
+
+#color1{
+	background-color: #469D8B;
+}
+
+#color2{
+	background-color: #E8AE3C;
+}
+
+#color3{
+	background-color: #EA8933;
+}
+
+#color4{
+	background-color: #73BAD3;
+}
+
+#color5{
+	background-color: #fdf7eb;
+	color:gray;
+}
+
+#color6{
+	background-color: #4F4F4F;
+}
+
+/*Navigation Styles*/
+
+button{
+	background-color: #469D8B;
+	color:white;
+	padding:25px;
+	border:none;
+	border-radius: 5px;
+	font-size: 1rem;
+	transition: background-color 1s;
+}
+
+button:hover{
+	background-color: #73BAD3;
+}
+
+/*Additional Styles—add if necessary*/
