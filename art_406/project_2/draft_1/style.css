@@ -1,0 +1,177 @@
+/*Document Styles*/
+body{
+	margin:0;
+	background-color: #fdf7eb;
+}
+
+
+/*Document Grid Setup*/
+.logo { grid-area: logo; }
+.navigation { grid-area: navigation; 
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;}
+.header { grid-area: header; 
+text-align: center;}
+.row1 { grid-area: row1;  display:inline-flex;}
+.row2 { grid-area: row2; display:inline-flex; }
+.footer { grid-area: footer;
+margin-top:50px;border-top:3px dashed #4f4f4f; padding-top:50px;}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'logo logo navigation navigation navigation navigation'
+    'header header header header header header'
+    'row1 row1 row1 row1 row1 row1'
+    'row2 row2 row2 row2 row2 row2'
+    'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+  width:75%;
+  margin: auto;
+}
+
+.grid-container > div {
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.header, .row1, .row2{
+	min-height: 200px;
+}
+
+.homepage-callout-image{
+	width:50%;
+	display: block;
+	background-color: #E8AE3C;
+}
+
+.homepage-callout{
+	width: 50%;
+}
+
+.space{
+	margin-right:25px;
+}
+
+/*Navigation Styles*/
+.nav-button{
+	font-size:20px;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+/*Typography Styles*/
+#title{font-size: 5.61rem; line-height: 1;}
+
+.section-head{
+	border-bottom:3px solid #4F4F4F;
+	color:#469D8B;
+}
+
+body{font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color:#4F4F4F;}
+
+h1{
+	font-family: 'Palanquin Dark', sans-serif;
+	line-height: 1.2;
+	font-size:3.157rem;
+}
+
+h2{
+font-size: 2.369rem;
+font-weight:bold;
+color:#469D8B;
+}
+
+h3{
+font-size:1.777rem;
+font-weight: 400;
+}
+
+h4{
+font-size: 1.333rem;
+font-family: 'Palanquin Dark', sans-serif;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+h5{
+font-size: 1.2rem;
+font-family: 'Palanquin Dark', sans-serif;
+}
+
+p{
+	font-size:1rem;
+	line-height: 1.5;
+}
+
+a{
+	color:black;
+	padding:2px 4px;
+
+}
+
+a:hover{
+	color:white;
+	background-color: gray;
+}
+
+/*Color Palette*/
+.palette{
+	display: inline-block;
+	width: 18.5%;
+	background-color: gray;
+	color:white;
+	text-align: center;
+	padding:10% 0;
+	margin-right:3px;
+	margin-bottom: 10px;
+}
+
+#color1{
+	background-color: #469D8B;
+}
+
+#color2{
+	background-color: #E8AE3C;
+}
+
+#color3{
+	background-color: #EA8933;
+}
+
+#color4{
+	background-color: #73BAD3;
+}
+
+#color5{
+	background-color: #fdf7eb;
+	color:gray;
+}
+
+#color6{
+	background-color: #4F4F4F;
+}
+
+/*Navigation Styles*/
+
+button{
+	color:#469D8B;
+	background-color:#fdf7eb;
+	padding:25px;
+	border:3px solid #469D8B;
+	font-size: 1rem;
+	font-weight:bold;
+	text-transform: uppercase;
+	transition: background-color 1s;
+}
+
+button:hover{
+	background-color: #469D8B;
+	color:white; 
+}
+
+/*Additional Styles—add if necessary*/
