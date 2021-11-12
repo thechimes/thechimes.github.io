@@ -169,12 +169,12 @@ button{
 	transition: background-color 1s;
 }
 
-/*button:hover{
+*button:hover{
 	background-color: #469D8B;
 	color:white; 
 }
 
-.button-link:hover{
+/*.button-link:hover{
 	background-color: transparent;
 }*/
 
