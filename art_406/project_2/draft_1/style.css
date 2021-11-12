@@ -5,7 +5,7 @@ body{
 }
 
 
-/*Document Grid Setup*/
+/*Document Grid Area Setup*/
 .logo { grid-area: logo; }
 .navigation { grid-area: navigation; 
 	display:flex;
@@ -39,27 +39,6 @@ margin-top:50px;border-top:3px dashed #4f4f4f; padding-top:50px;}
 
 .header, .row1, .row2{
 	min-height: 200px;
-}
-
-.homepage-callout-image{
-	width:50%;
-	display: block;
-	background-color: #E8AE3C;
-}
-
-.homepage-callout{
-	width: 50%;
-}
-
-.space{
-	margin-right:25px;
-}
-
-/*Navigation Styles*/
-.nav-button{
-	font-size:20px;
-	margin-left: 10px;
-	display: inline-block;
 }
 
 /*Typography Styles*/
@@ -108,17 +87,6 @@ p{
 	line-height: 1.5;
 }
 
-a{
-	color:black;
-	padding:2px 4px;
-
-}
-
-a:hover{
-	color:white;
-	background-color: gray;
-}
-
 /*Color Palette*/
 .palette{
 	display: inline-block;
@@ -157,11 +125,38 @@ a:hover{
 }
 
 /*Navigation Styles*/
+a{
+	color:black;
+	padding:2px 4px;
+
+}
+
+a:hover{
+	color:white;
+	background-color: #73BAD3;
+}
+
+.nav-button{
+	font-size:20px;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.nav-button a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.nav-button a:hover{
+	background-color:#73BAD3; 
+}
 
 button{
 	color:#469D8B;
 	background-color:#fdf7eb;
-	padding:25px;
+	padding:15px;
 	border:3px solid #469D8B;
 	font-size: 1rem;
 	font-weight:bold;
@@ -169,9 +164,27 @@ button{
 	transition: background-color 1s;
 }
 
-button:hover{
+/*button:hover{
 	background-color: #469D8B;
 	color:white; 
 }
 
-/*Additional Styles—add if necessary*/
+.button-link:hover{
+	background-color: transparent;
+}*/
+
+
+/*Homepage Styles*/
+.homepage-callout-image{
+	width:50%;
+	display: block;
+	background-color: #E8AE3C;
+}
+
+.homepage-callout{
+	width: 50%;
+}
+
+.space{
+	margin-right:25px;
+}
