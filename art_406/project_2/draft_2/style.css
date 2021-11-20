@@ -18,7 +18,7 @@ text-align: center;}
 .row2 { grid-area: row2; display:inline-flex; }
 .row3 { grid-area: row3; display:inline-flex; }
 .row4 { grid-area: row4; display:inline-flex; }
-.footer { grid-area: footer;
+.footer { grid-area: footer;display:inline-flex;
 margin-top:50px;border-top:3px dashed #4f4f4f; padding-top:50px;}
 
 .grid-container {
@@ -142,8 +142,8 @@ a:hover{
 }
 
 .nav-button{
-	font-size:20px;
-	margin-left: 10px;
+	font-size:18px;
+	margin-left: 35px;
 	display: inline-block;
 }
 
@@ -183,7 +183,7 @@ button{
 .homepage-callout-image{
 	width:50%;
 	display: block;
-	background-color: #E8AE3C;
+	/*background-color: #E8AE3C;*/
 }
 
 .homepage-callout{
