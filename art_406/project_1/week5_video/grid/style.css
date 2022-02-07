@@ -1,0 +1,36 @@
+body{
+    background-color: blueviolet;
+    margin: 0;
+}
+
+.header{
+    grid-area: header;
+    background-color: coral; 
+}
+.item1{
+    grid-area: item1;
+    background-color: aquamarine;
+}
+.item2{
+    grid-area: item2;
+    background-color: darkslategrey;
+}
+.item3{
+    grid-area: item3;
+    background-color: hotpink;
+}
+
+.footer{
+    grid-area:footer;
+    background-color: goldenrod;
+}
+
+.grid-container{
+    min-height: 500px;
+    display: grid;
+    background-color: chartreuse;
+    grid-template-areas: 
+    'header' 'header''header'
+    'item1' 'item2' 'item3'
+    'footer' 'footer' 'footer';
+}
