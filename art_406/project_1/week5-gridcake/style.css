@@ -26,11 +26,11 @@ body{
 }
 
 .grid-container{
-    min-height: 500px;
+    min-height: 100vh;
     display: grid;
     background-color: chartreuse;
     grid-template-areas: 
-    'header' 'header''header'
-    'item1' 'item2' 'item3'
-    'footer' 'footer' 'footer';
+    'header header header'
+    'item1 item2 item3'
+    'footer footer footer';
 }
