@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-color: red;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 18px;
+    line-height:1.4;
+}
+/*CSS GRID SETUP*/
+/*Setting divs to grid areas*/
+footer{
+    grid-area: footer;
+    padding:25px;
+}
+
+header{
+    grid-area: header;
+    padding:25px;
+    background-color: green;
+    padding: 25px;
+
+}
+
+#ingredients{
+    grid-area: ingredients;
+    background-color:yellow;
+    padding: 25px;
+}
+
+#directions{
+    grid-area: directions;
+    background-color: pink;
+    padding: 25px;
+}
+
+#image{
+    grid-area: image;
+    background-color: purple;
+}
+
+img{
+    width:100%;
+}
+
+/*Setting upgrid container*/
+.grid-container{
+    width:70%;
+    margin: auto;
+    background-color: white;
+    display: grid;
+    grid-template-areas: 'header header header header header'
+    'image image image image ingredients'
+    'directions directions directions directions directions'
+    'footer footer footer footer footer';
+}
