@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background-color: red;
+}
+
+#container{
+    width: 60%;
+    display: block;
+    margin: auto;
+    background-color: beige;
+}
+
+header{
+    width:90%;
+    background-color: pink;
+    padding:5%;
+}
+
+img{
+    width:60%;
+    display: block;
+    float:left;
+    background-color: green;
+}
+article{
+    width: 30%;
+    float:left;
+    background-color: aliceblue;
+    padding: 5%;
+}
+footer{
+    clear: both;
+    width: 90%;
+    padding: 5%;
+    background-color: aquamarine;
+}
