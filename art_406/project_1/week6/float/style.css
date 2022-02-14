@@ -1,7 +1,25 @@
 body{
     margin: 0;
     background-color: red;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 18px;
+    line-height:1.4;
 }
+
+/*TYPOGRAPHY*/
+
+h1{
+    font-size: 5.653rem;
+    margin-bottom:0;
+}
+h2{
+    font-size:1.999rem;
+}
+
+h3{
+    font-size:1.414rem;
+}
+/* POSITIONING */
 
 #container{
     width: 60%;
@@ -17,16 +35,22 @@ header{
 }
 
 img{
-    width:60%;
+    width:55%;
     display: block;
     float:left;
     background-color: green;
 }
-article{
-    width: 30%;
+
+#ingredients{
+    width: 35%;
     float:left;
     background-color: aliceblue;
     padding: 5%;
+}
+
+#directions{
+    clear: both;
+    padding: 1% 5% 5% 5%;
 }
 footer{
     clear: both;
