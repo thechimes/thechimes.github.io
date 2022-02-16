@@ -1,0 +1,52 @@
+body{
+    background-color: red;
+    margin:0;
+}
+/*LAYOUT*/
+
+/*CSS GRID SETUP*/
+header{
+    grid-area:header;
+    background-color: aquamarine;
+    height:200px;
+}
+
+img{
+    width:100%
+}
+#image{
+    grid-area:image;
+    background-color: blueviolet;
+    height:200px;
+}
+
+#ingredients{
+    grid-area:ingredients;
+    background-color: chartreuse;
+    height:200px;
+}
+
+#directions{
+    grid-area:directions;
+    background-color: coral;
+    height:200px;
+}
+
+footer{
+    grid-area:footer;
+    background-color: cornflowerblue;
+    height:200px;
+}
+
+.grid-container{
+    display: grid;
+    width: 60%;
+    margin:auto;
+    background-color: mediumvioletred;
+    grid-template-areas: 
+    'header header header'
+    'image image ingredients'
+    'directions directions directions'
+    'footer footer footer'
+    ;
+}
