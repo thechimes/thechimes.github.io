@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    background-color: #E8E1D7;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 18px;
+    line-height:1.4;
+}
+/*----TYPOGRAPHY----*/
+
+h1{
+    font-size: 5.653rem;
+    margin-bottom:0;
+    margin-top:0;
+    color:#E02D1C;
+}
+h2{
+    font-size:1.999rem;
+    color:#06486E;
+}
+
+h3{
+    font-size:1.414rem;
+    color:#06486E;
+}
+
+a{
+    color:#01697C;
+    font-weight: 600;
+}
+/*----POSITIONING----*/
+/*CSS Grid Setup*/
+/*Setting divs to grid areas*/
+footer{
+    grid-area: footer;
+    padding: 30px;
+}
+
+header{
+    grid-area: header;
+    padding: 25px 50px;
+    background-color: #E4A777;
+
+}
+
+#ingredients{
+    grid-area: ingredients;
+    padding: 15px 30px;
+}
+
+#directions{
+    grid-area: directions;
+    padding: 15px 30px;
+    border-top: 2px dashed  #E4A777;
+}
+
+#image{
+    grid-area: image;
+}
+
+img{
+    width:100%;
+}
+
+/*Setting upgrid container*/
+.grid-container{
+    width:90%;
+    margin: auto;
+    background-color: white;
+    display: grid;
+    grid-template-areas: 'header header header'
+    'image image ingredients'
+    'directions directions directions'
+    'footer footer footer';
+    padding:0 15px;
+    border-left: 10px dotted#E3A778;
+    border-right: 10px dotted #E3A778;
+}
+
+.decor-container{
+    background-color: white;
+    width:60%;
+    margin: auto;
+}
