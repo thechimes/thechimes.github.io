@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(#FAFF7F,#FF5154,#91A6FF);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* TYPOGRAPHY */
+h1{
+    font-family: 'Rubik Beastly', cursive;
+    font-size: 11.089rem;
+    color:#FAFF7F;
+}
+
+h2{
+font-size:6.854rem;
+color:#FF88DC;
+}
+
+#ingredients{
+    background-color:#FF5154;
+    float:left;
+    width: 50%;
+}
+
+#directions{
+    background-color:#91A6FF;
+    float:left;
+    width: 50%;
+}
+
+img{
+    width:80%;
+}
+#image{
+    width: 70%;
+    background-color: #FF88DC;
+}
