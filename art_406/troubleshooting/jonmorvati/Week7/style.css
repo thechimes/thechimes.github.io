@@ -1,0 +1,75 @@
+body{
+	font-family: 'Quicksand', sans-serif;
+	background-color: #C2C2C2;
+	margin:0;
+	font-size: 18px;
+}
+/*LAYOUT*/
+
+/*CSS GRID SETUP*/
+header{
+	grid-area:header;
+	/*background-color:#C2C2C2;*/
+	/*got rid of the height property*/
+}
+
+#image{
+	width:100%;
+	grid-area:image;
+	/*background-color:#C2C2C2;*/
+	/*got rid of the height property*/
+}
+
+img{
+	width: 100%;/*added a width to the image to tell it to fill the image container div*/
+}
+
+#ingredients{
+	grid-area:ingredients;
+	/*background-color:#C2C2C2;*/
+	/*got rid of the height property*/
+}
+
+#instructions{
+	grid-area:instructions;
+	/*background-color:#C2C2C2;*/
+	/*got rid of the height property*/
+}
+.grid-container{
+	padding:50px; /*added padding*/
+	display: grid;
+	width: 60%; /*if your content gets squishy, make this bigger*/
+	grid-gap: 25px; /*added grid gap*/
+	background-color:white; /*added background color to grid container*/
+	margin:auto;
+	grid-template-areas:
+	'header header header header header'
+	'image image image ingrediets ingredients'
+	'instructions instructions instructions instructions instructions'
+	;/*added more columns*/}
+
+/*TYPEOGRAPHY*/
+h1{
+	font-size: 3.052rem;
+	margin-bottom: 0;
+	margin-top: 0;
+	color:#D26660 ;
+
+}
+
+h2{
+	font-size: 1.953rem;
+	color:#CD9065 ;
+
+}
+
+h3{
+	font-size: 1.563rem;
+	color:#CD9065 ;
+
+}
+
+h4{
+	font-size: 1.25rem;
+	color:#CD9065 ;
+}
