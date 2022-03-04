@@ -1,0 +1,46 @@
+body{
+    background-color: violet;
+    margin: 0;
+}
+
+header{
+    grid-area:header;
+    background-color: pink;
+    height: 200px;
+}
+
+#image{
+    grid-area:image;
+    background-color: yellow;
+    height: 200px;
+}
+
+#ingredients{
+    grid-area:ingredients;
+    background-color: green;
+    height: 200px;
+}
+
+#directions{
+    grid-area:directions;
+    background-color: blue;
+    height: 200px;
+}
+
+footer{
+    grid-area:footer;
+    background-color: red;
+    height: 200px;
+}
+
+.grid-container{
+    display: grid;
+    width: 60%;
+    margin:auto;
+    background-color: aqua;
+    grid-template-areas:
+    'header header header'
+    'image image ingedients'
+    'directions image image'
+    'footer footer footer';
+}
