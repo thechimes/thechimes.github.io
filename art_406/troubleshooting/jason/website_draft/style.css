@@ -1,0 +1,75 @@
+
+.container {
+	position: relative;
+	text-align: center;
+	color: #A72530;
+}
+
+.centered {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn-group .button{
+	background-color:  #080C0B;
+	border: none;
+	color: #A72530;
+	padding: 50px 63 px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.33rem;
+	cursor: pointer;
+	float: left;
+}
+
+.btn-group .button:hover{
+	background-color: #7A918D;
+}
+
+/*Type section, side note should you do type first or last? or doe sit matter*/
+
+h1{
+	font-family: 'EB Garamond', serif;
+	font-size: 4.209rem;
+}
+
+h2{
+	font-family: 'Anek Tamil', sans-serif;
+	font-size: 2.369rem;
+}
+
+h3{
+	font-family: 'Anek Tamil', sans-serif;
+	font-size: 1.777rem;
+}
+
+h4{
+	font-family: 'Anek Tamil', sans-serif;
+	font-size: 1.333rem;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1rem;
+}
+
+.textbox1{
+	margin: 100px;
+	max-width: 500px;
+}
+
+.image2 {
+	position: relative;
+	text-align: center;
+	color: #A72530;
+}
+
+.cool {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
