@@ -4,12 +4,6 @@ html, body {
   text-transform: uppercase;
   font-family: 'Holtwood One SC', serif;
   color: "red";
-
-   /* This centers our sketch horizontally. */
-  justify-content: center;
-
-  /* This centers our sketch vertically. */
-  align-items: center;
 }
 
 h1,h2,p{
