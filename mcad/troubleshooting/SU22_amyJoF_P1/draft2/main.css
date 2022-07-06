@@ -10,11 +10,7 @@ h2,p{
 }
 
 h1{
-  display:block;
-  position: absolute;
-  width:25%;
-  top:25px;
-  left:2px;
+  text-align: left;
 }
 
 h2{
@@ -27,13 +23,21 @@ main{
   height:792px;
   position: absolute;
   top:25px;
-  left:30%%;
+  left:30%;
 }/*in theory this should be the #images div but the canvas wants to draw in main. i tried to get it to use the #images div as the parent but that didn't work.*/
+
+#button{
+  background-color: pink;
+  display:block;
+  position: absolute;
+  width:25%;
+  top:25px;
+  left:2px;
+}
 
 #text{
   width:612px;
   height:792px;
-  background-color:red;
   position: absolute;
   top:25px;
   left:30%;
