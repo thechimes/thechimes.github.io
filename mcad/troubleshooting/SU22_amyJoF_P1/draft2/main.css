@@ -1,0 +1,34 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: 'Holtwood One SC', serif;
+  color: "red";
+}
+
+h1,h2,p{
+  text-align: center;
+}
+
+#container{
+  width:612px;
+  height:792px;
+  margin:auto;
+  position: absolute;
+}
+
+#images{/*
+z-index:-1; removing for now */
+}
+
+#text{
+z-index: 5; /*setting z index to a much bigger # to guarantee this stacks properly*/
+width:612px;
+height:792px;
+}
+
+/*.stack{
+  position:relative;
+  top:0;
+  left:50%;
+}*/
