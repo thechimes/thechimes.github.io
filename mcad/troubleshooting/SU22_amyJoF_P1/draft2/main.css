@@ -9,6 +9,13 @@ h1,h2,p{
   text-align: center;
 }
 
+h1{
+  position: absolute;
+  width:25%;
+  top:25px;
+  left:2px;
+}
+
 h2{
   font-size: xx-large;
 }
