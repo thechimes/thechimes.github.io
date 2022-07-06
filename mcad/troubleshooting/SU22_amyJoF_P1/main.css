@@ -4,7 +4,7 @@ html, body {
   text-transform: uppercase;
   font-family: 'Holtwood One SC', serif;
   color: "red";
-  
+
    /* This centers our sketch horizontally. */
   justify-content: center;
 
@@ -31,7 +31,7 @@ z-index:-1;
 z-index: 5; /*setting z index to a much bigger # to guarantee this stacks properly*/
 width:612px;
 height:792px;
-background-color:red;
+background-color:red; /*setting bg color to red so i can ensure these stack*/
 }
 
 .stack{
