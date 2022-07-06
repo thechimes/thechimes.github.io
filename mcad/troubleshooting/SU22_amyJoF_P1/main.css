@@ -7,6 +7,10 @@ html, body {
   color: "red";
 }
 
+canvas{
+  background-color: red;
+}
+
 #images{
 position:absolute;
 top:0;

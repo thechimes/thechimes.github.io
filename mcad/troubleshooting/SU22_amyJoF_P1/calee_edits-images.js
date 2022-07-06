@@ -28,7 +28,7 @@ function draw() {
 
 function mouseClicked() {
     var index = int(random(8));
-    image(imgs[index], 306, 396);
+    image(imgs[index], 306, 396);//Centering the image on the newly sized canvas
 }
 
 
