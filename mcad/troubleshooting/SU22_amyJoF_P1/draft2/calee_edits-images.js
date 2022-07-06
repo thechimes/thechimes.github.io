@@ -1,8 +1,5 @@
 let imgs = [];
 
-var pdf; // create a variable for a pdf object
-var record = false; // set this to false so it doesn't start recording until you tell it to
-
 function preload() {
     myFont = loadFont('fonts/Coronette.otf');
     for (var i = 0; i < 8; i++) {
@@ -14,21 +11,10 @@ function setup() {
     createCanvas(612, 792);//this is the size of a letter-sized page in 72 dpi
     background(255);
     imageMode(CENTER);
-    pdf = createPDF(); // initialize the PDF creation
 }
 
 function draw() {
   //I removed the text from the p5 file so that it's just the image randomizer to make it easier to deal with
-  if (record) { // when record is true, it will begin recording the PDF
-    pdf.beginRecord();
-  }
-
-  if (record) { // if recording began, save it.
-    record = false;
-    pdf.save({
-        filename: 'itworks',//change filename to whatever makes sense
-    });
-    }
 }
 
 function mouseClicked() {
@@ -43,9 +29,9 @@ function keyTyped() {
         clear();
         background(255);
     }
-    //download pdf 
+    //screenshot 
     if (key == 's') {
-        record = true;
+        save('protestposter.png');
     }
 }
 
