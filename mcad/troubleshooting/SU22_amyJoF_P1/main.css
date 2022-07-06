@@ -6,3 +6,11 @@ html, body {
   font-family: 'Holtwood One SC', serif;
   color: "red";
 }
+
+#images{
+position:absolute;
+}
+
+#text{
+position:absolute;
+}
