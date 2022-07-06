@@ -16,7 +16,13 @@ h1,h2,p{
   margin:auto;
 }
 
-canvas{
+main{
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+#images{
 /*position:relative;
 top:0;
 left:0;*/
