@@ -23,8 +23,8 @@ h1,h2,p{
   position: absolute;
 }
 
-#images{
-z-index:-1;
+#images{/*
+z-index:-1; removing for now */
 }
 
 #text{
