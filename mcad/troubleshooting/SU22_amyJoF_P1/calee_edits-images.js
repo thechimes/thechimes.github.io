@@ -8,10 +8,10 @@ function preload() {
 }
 
 function setup() {
-   let cnv = createCanvas(612, 792);//this is the size of a letter-sized page in 72 dpi
+    createCanvas(612, 792);//this is the size of a letter-sized page in 72 dpi
     background(255);
     imageMode(CENTER);
-    cnv.position(windowWidth/2, windowHeight/2, 'relative');
+    canvas.parent('images');
 }
 
 function draw() {
