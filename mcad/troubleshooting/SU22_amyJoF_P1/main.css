@@ -16,29 +16,19 @@ h1,h2,p{
   margin:auto;
 }
 
-main{
-  position: absolute;
-  top:0;
-  left:0;
-}
-
 #images{
-/*position:relative;
-top:0;
-left:0;*/
 z-index:-1;
 }
 
 #text{
-/*position:relative;
-top:0;
-left:0;*/
-z-index: 0;
+z-index: 5; /*setting z index to a much bigger # to guarantee this stacks properly*/
 width:612px;
 height:792px;
 background-color:red;
 }
 
 .stack{
-  position: absolute;
+  position:absolute;
+  top:10%;
+  left:50%;
 }
