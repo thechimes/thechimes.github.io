@@ -11,16 +11,26 @@ h1,h2,p{
 
 #container{
   display:block;
+  position: absolute;
+  top:0;
+  left:0;
 }
 
 #images{
   width:612px;
   height:792px;
   background-color: green;
+  position: relative;
+  top:0;
+  left:50%;
 }
 
 #text{
   width:612px;
   height:792px;
   background-color:red;
+  position: relative;
+  top:0;
+  left:50%;
+  z-index:5;
 }
