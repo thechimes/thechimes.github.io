@@ -15,16 +15,14 @@ h2{
 
 #container{
   display:block;
-  position: absolute;
-  top:0;
-  left:0;
 }
 
 main{
+  display:block;
   width:612px;
   height:792px;
   background-color: green;
-  position: relative;
+  position: absolute;
   top:0;
   left:50%;
 }/*in theory this should be the #images div but the canvas wants to draw in main. i tried to get it to use the #images div as the parent but that didn't work.*/
@@ -33,7 +31,7 @@ main{
   width:612px;
   height:792px;
   background-color:red;
-  position: relative;
+  position: absolute;
   top:0;
   left:50%;
   z-index:5;
