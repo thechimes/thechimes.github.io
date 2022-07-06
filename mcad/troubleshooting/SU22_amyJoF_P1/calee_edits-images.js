@@ -17,18 +17,18 @@ function draw() {
     fill("red");
     textFont(myFont)
         .textSize(40);
-    text('CLICK! CLICK! CLICK!', 600, 50);
+    text('CLICK! CLICK! CLICK!', width/2, 50);
     fill("red")
         .textSize(16);
-    text('to make a protest poster', 500, 75);
+    text('to make a protest poster', width/2, 75);
     fill("red")
         .textSize(16);
-    text('with Miss Amy Jo!', 700, 85);
+    text('with Miss Amy Jo!', width/2, 85);
 }
 
 function mouseClicked() {
     var index = int(random(8));
-    image(imgs[index], 306, 396);//Centering the image on the newly sized canvas
+    image(imgs[index], width/2, height/2);//Centering the image on the canvas—this is responsive to whatever your canvas size is
 }
 
 
