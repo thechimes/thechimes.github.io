@@ -9,8 +9,10 @@ html, body {
 
 #images{
 position:absolute;
+top:0;
 }
 
 #text{
 position:absolute;
+top:0;
 }
