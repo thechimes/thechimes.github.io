@@ -5,7 +5,7 @@ html, body {
   font-family: 'Holtwood One SC', serif;
 }
 
-h1,h2,p{
+h2,p{
   text-align: center;
 }
 
@@ -25,10 +25,9 @@ main{
   display:block;
   width:612px;
   height:792px;
-  background-color: green;
   position: absolute;
-  top:0;
-  left:50%;
+  top:25px;
+  left:30%%;
 }/*in theory this should be the #images div but the canvas wants to draw in main. i tried to get it to use the #images div as the parent but that didn't work.*/
 
 #text{
@@ -36,7 +35,7 @@ main{
   height:792px;
   background-color:red;
   position: absolute;
-  top:0;
-  left:50%;
+  top:25px;
+  left:30%;
   z-index:5;
 }
