@@ -48,5 +48,7 @@ function changeThree() {
 
 
 
-    bigArgue.innerHTML = intro + '\n' + meOne + '\n' + pointOne + '\n' + '\n' + sum;
+    wordOne.innerHTML = intro;
+    wordTwo.innerHTML = pointOne;
+    wordThree.innerHTML = sum;
 }
