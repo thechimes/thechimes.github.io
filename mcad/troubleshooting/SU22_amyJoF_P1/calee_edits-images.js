@@ -8,7 +8,7 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(775, 550);
+    createCanvas(612, 792);//this is the size of a letter-sized page in 72 dpi
     background(255);
     imageMode(CENTER);
 }
