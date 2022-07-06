@@ -14,9 +14,13 @@ h1,h2,p{
 }
 
 #images{
-  
+  width:612px;
+  height:792px;
+  background-color: green;
 }
 
 #text{
-
+  width:612px;
+  height:792px;
+  background-color:red;
 }
