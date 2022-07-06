@@ -10,9 +10,13 @@ html, body {
 #images{
 position:absolute;
 top:0;
+left:0;
+z-index:-1;
 }
 
 #text{
 position:absolute;
-top:0;
+top:500px;
+left:750px;
+z-index: 0;
 }
