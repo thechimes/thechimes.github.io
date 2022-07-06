@@ -31,7 +31,6 @@ z-index:-1;
 z-index: 5; /*setting z index to a much bigger # to guarantee this stacks properly*/
 width:612px;
 height:792px;
-background-color:red; /*setting bg color to red so i can ensure these stack*/
 }
 
 .stack{
