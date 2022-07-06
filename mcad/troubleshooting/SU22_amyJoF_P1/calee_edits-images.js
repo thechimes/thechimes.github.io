@@ -11,7 +11,7 @@ function setup() {
     createCanvas(612, 792);//this is the size of a letter-sized page in 72 dpi
     background(255);
     imageMode(CENTER);
-    canvas.parent('images');
+    canvas.parent('container');
 }
 
 function draw() {
