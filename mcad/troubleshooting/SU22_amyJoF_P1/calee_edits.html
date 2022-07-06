@@ -7,73 +7,23 @@
     <title>Make a Protest Poster with Amy Jo!</title>
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script> <!--Load your p5.js library script in the head of the document-->
 </head>
 
-<body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
-    <script src="images.js"></script>
-    <h2>
-        <div id="bigArgue">
-            Click below to
-        </div>
-    </h2>
-    <h1><a href="#" onclick="changeThree()">MAKE A POSTER</a></h1>
+<body>  
+    <div id="images"> <script src="calee_edits-images.js"></script></div><!--This is where the image randomizer loads.-->
+   
+   <div id="text"><!--This is where the text randomizer loads.-->
+       <h2>
+      <div id="bigArgue">
+        Click below to
+    </div>
+</h2>
+<h1><a href="#" onclick="changeThree()">MAKE A POSTER</a></h1>
 
-    <script type="text/javascript">
-
-        var introList = new Array("Fight", "Nevertheless", "March", "Human Rights", "As long as", "Because", "Revolution", "Vote", "Still", "Smash");
-        var pointsList = new Array("the", "she", "for", "are", "like", "we", "girl style", "out", "better", "Love");
-        var sumList = new Array("Power", "Now", "Human Rights", "Feminism", "Persisted", "Progress", "Tear sh*t up");
-
-        var meOne = "";
-
-        var pointOne = "This is Point One";
-        var intro = " ";
-        var sum = " ";
-        var bigArgue = $("bigArgue");
-
-        function $(id) {
-            return document.getElementById(id);
-        }
-
-
-        function changeThree() {
-
-            var one = Math.random() * pointsList.length;
-            one = Math.floor(one);
-
-            var two = Math.random() * pointsList.length;
-            two = Math.floor(two);
-            while (one == two) {
-                two = Math.random() * pointsList.length;
-                two = Math.floor(two);
-            }
-
-            var three = Math.random() * pointsList.length;
-            three = Math.floor(three);
-            while (two == three || three == one) {
-                three = Math.random() * pointsList.length;
-                three = Math.floor(three);
-            }
-
-            var i = Math.random() * introList.length;
-            i = Math.floor(i);
-
-            var s = Math.random() * sumList.length;
-            s = Math.floor(s);
-
-            pointOne = pointsList[one];
-
-            intro = introList[i];
-            sum = sumList[s];
-
-
-
-
-
-            bigArgue.innerHTML = intro + ' ' + meOne + ' ' + pointOne + ' ' + ' ' + sum;
-        }
-    </script>
+<script src="calee_edits-textrandomizer.js">  
+</script></div><!--end of text randomizer div-->
+   
 </body>
 
 </html>
