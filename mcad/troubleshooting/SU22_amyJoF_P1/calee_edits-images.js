@@ -11,7 +11,7 @@ function setup() {
    let cnv = createCanvas(612, 792);//this is the size of a letter-sized page in 72 dpi
     background(255);
     imageMode(CENTER);
-    cnv.position(0, 0, 'absolute');
+    cnv.position(windowWidth/2, windowHeight/2, 'relative');
 }
 
 function draw() {
