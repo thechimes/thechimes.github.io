@@ -11,7 +11,7 @@ function setup() {
     createCanvas(612, 792);//this is the size of a letter-sized page in 72 dpi
     background(255);
     imageMode(CENTER);
-    canvas.parent('container');
+   // canvas.parent('container'); tried to add the canvas to a parent item but this didn't work
 }
 
 function draw() {
