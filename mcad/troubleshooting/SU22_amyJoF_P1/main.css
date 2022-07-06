@@ -10,19 +10,23 @@ h1,h2,p{
   text-align: center;
 }
 
-canvas{
-  background-color: red;
+#container{
+  width:612px;
+  height:792px;
+  margin:auto;
 }
 
 #images{
-position:absolute;
+position:relative;
 top:0;
 left:0;
 z-index:-1;
 }
 
 #text{
-position:absolute;
+position:relative;
+top:0;
+left:0;
 z-index: 0;
 width:612px;
 height:792px;
