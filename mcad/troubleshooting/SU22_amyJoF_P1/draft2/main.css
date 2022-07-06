@@ -10,6 +10,7 @@ h1,h2,p{
 }
 
 h1{
+  display:block;
   position: absolute;
   width:25%;
   top:25px;
