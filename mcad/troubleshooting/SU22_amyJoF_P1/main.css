@@ -23,10 +23,8 @@ z-index:-1;
 
 #text{
 position:absolute;
-top:500px;
-left:750px;
 z-index: 0;
 width:612px;
-height:612px;
+height:792px;
 background-color:red;
 }
