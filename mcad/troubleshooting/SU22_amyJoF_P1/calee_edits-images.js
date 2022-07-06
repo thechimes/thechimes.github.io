@@ -14,16 +14,7 @@ function setup() {
 }
 
 function draw() {
-    fill("red");
-    textFont(myFont)
-        .textSize(40);
-    text('CLICK! CLICK! CLICK!', width/2, 50);
-    fill("red")
-        .textSize(16);
-    text('to make a protest poster', width/2, 75);
-    fill("red")
-        .textSize(16);
-    text('with Miss Amy Jo!', width/2, 85);
+  //I removed the text from the p5 file so that it's just the image randomizer to make it easier to deal with
 }
 
 function mouseClicked() {
