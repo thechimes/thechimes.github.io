@@ -20,14 +20,14 @@ h2{
   left:0;
 }
 
-#images{
+main{
   width:612px;
   height:792px;
   background-color: green;
   position: relative;
   top:0;
   left:50%;
-}
+}/*in theory this should be the #images div but the canvas wants to draw in main. i tried to get it to use the #images div as the parent but that didn't work.*/
 
 #text{
   width:612px;
