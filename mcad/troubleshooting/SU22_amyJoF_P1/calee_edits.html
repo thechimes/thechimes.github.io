@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Make a Protest Poster with Amy Jo!</title>
-    <link rel="stylesheet" type="text/css" href="grid.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script> <!--Load your p5.js library script in the head of the document-->
 </head>
@@ -14,11 +14,11 @@
     <div id="container"><!--container div that can be sized/resized-->
        
         <!--This is where the image randomizer loads.-->
-        <div id="images"> <script src="calee_edits-images.js"></script></div>
+        <div id="images" class="stack"> <script src="calee_edits-images.js"></script></div>
     <h1><a href="#" onclick="changeThree()">CLICK HERE TO MAKE A POSTER</a></h1>
    
     <!--This is where the text randomizer loads.-->
-    <div id="text">
+    <div id="text" class="stack">
         <h2>
         <div id="bigArgue">
             Protest text goes here
