@@ -28,7 +28,7 @@ function draw() {
 
 function mouseClicked() {
     var index = int(random(8));
-    image(imgs[index], 775, 550);
+    image(imgs[index], 306, 396);
 }
 
 
