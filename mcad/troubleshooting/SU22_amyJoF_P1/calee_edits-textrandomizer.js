@@ -1,5 +1,5 @@
-var introList = new Array("Fight\n", "Nevertheless\n", "March\n", "Human Rights\n", "As long as\n", "Because\n", "Revolution\n", "Vote\n", "Still\n", "Smash\n");
-var pointsList = new Array("the\n", "she\n", "for\n", "are\n", "like\n", "we\n", "girl style\n", "out\n", "better\n", "Love\n");
+var introList = new Array("Fight", "Nevertheless", "March", "Human Rights", "As long as", "Because", "Revolution", "Vote", "Still", "Smash");
+var pointsList = new Array("the", "she", "for", "are", "like", "we", "girl style", "out", "better", "Love");
 var sumList = new Array("Power", "Now", "Human Rights", "Feminism", "Persisted", "Progress", "Tear sh*t up");
 
 var meOne = "";
@@ -48,5 +48,5 @@ function changeThree() {
 
 
 
-    bigArgue.innerHTML = intro + ' ' + meOne + ' ' + pointOne + ' ' + ' ' + sum;
+    bigArgue.innerHTML = intro + '\n' + meOne + '\n' + pointOne + '\n' + '\n' + sum;
 }
