@@ -1,13 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Palanquin&family=Palanquin+Dark:wght@700&display=swap');
-
-/*code to import a typeface that we are hosting ourselves
     @font-face{
         font-family: inter;
-        src: url("linktofont.woff");
-        font-weight:400;
+        src: url("inter-var.woff2");
     }
-    You have to add an @font-face for each individual typeface and tell it what weight you're defining it as.
-*/
+
 
 /* define your animation */
 @keyframes animate-type{
@@ -26,7 +21,7 @@
 body{
 margin:0;
 
-font-family: 'Palanquin', Arial, Helvetica, sans-serif;
+font-family: 'inter', Arial, Helvetica, sans-serif;
 font-size: 24px;
 line-height: 1.5;
 
@@ -45,7 +40,7 @@ position: fixed;
 top:64px;
 left:64px;
 
-font-family: 'Palanquin Dark', sans-serif;
+font-family: 'inter', sans-serif;
 font-size: 2em;
 font-style: italic;
 line-height: 1;
