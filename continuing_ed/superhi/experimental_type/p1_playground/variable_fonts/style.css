@@ -8,13 +8,16 @@
 @keyframes animate-type{
    /*what happens at 0% time*/
     0%{
-       letter-spacing: normal;
-
+       /*code for working with variable font*/
+       font-variation-settings: "wght" 400, "slnt" 0;
+       letter-spacing: 0;
     }
 
     /*what happens at 100% time*/
     100%{
+         /*code for working with variable font—need to look at the Inter typeface page for instructions*/
         letter-spacing: 5px;
+       font-variation-settings: "wght" 900, "slnt" -8;
     }
 }
 
@@ -42,7 +45,6 @@ left:64px;
 
 font-family: 'inter', sans-serif;
 font-size: 2em;
-font-style: italic;
 line-height: 1;
 
 /*CSS animation*/
