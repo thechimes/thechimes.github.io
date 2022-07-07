@@ -1,13 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin&family=Palanquin+Dark:wght@700&display=swap');
+
+/*code to import a typeface that we are hosting ourselves
+    @font-face{
+        font-family: inter;
+        src: url("linktofont.woff");
+        font-weight:400;
+    }
+    You have to add an @font-face for each individual typeface and tell it what weight you're defining it as.
+*/
+
+/* define your animation */
+@keyframes animate-type{
+   /*what happens at 0% time*/
+    0%{
+       letter-spacing: normal;
+
+    }
+
+    /*what happens at 100% time*/
+    100%{
+        letter-spacing: 5px;
+    }
+}
+
 body{
 margin:0;
 
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'Palanquin', Arial, Helvetica, sans-serif;
 font-size: 24px;
 line-height: 1.5;
 
 background-color: #fff;
-color: #000;
 background-image: url("background.jpg");
 background-size: cover;
 background-repeat: no-repeat;
+background-position: center center;
+height: 100vh;
+
+color: #000;
+}
+
+header{
+position: fixed;
+top:64px;
+left:64px;
+
+font-family: 'Palanquin Dark', sans-serif;
+font-size: 2em;
+font-style: italic;
+line-height: 1;
+
+/*CSS animation*/
+animation: animate-type 3s infinite alternate;
+}
+
+footer{
+position:fixed;
+bottom:64px;
+left:64px;
 }
