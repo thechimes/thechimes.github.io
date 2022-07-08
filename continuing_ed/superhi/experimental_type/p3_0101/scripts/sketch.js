@@ -1,14 +1,8 @@
 
-
-
-function preload(){
+function setup () {
 
 }
 
-function setup(){
-
-}
-
-function draw(){
+function draw () {
     ellipse(mouseX, mouseY, 100,100); 
 }
