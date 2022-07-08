@@ -1,4 +1,4 @@
-let spaceGrotesk
+let spaceGrotesk;
 
 function preload(){
    spaceGrotesk loadFont("assets/spacegrotesk-medium.otf");
@@ -12,5 +12,6 @@ function draw(){
     backgroundColor("#ef5236");
     fill("#ecf072");
     textSize(400);
-    text(a, 500, 500);
+    textFont(spaceGrotesk);
+    text("a", 500, 500);
 }
