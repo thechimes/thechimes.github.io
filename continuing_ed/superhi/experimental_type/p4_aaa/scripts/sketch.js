@@ -1,3 +1,4 @@
+let graphic;
 let spaceGrotesk;
 
 function preload(){
@@ -7,17 +8,18 @@ function preload(){
 function setup(){
     createCanvas(600,600);
 
-    fill("#ecf072");
+    //create graphic
+    graphic = createGraphics(600,600)
+    // define the graphic 
+    graphic.fill("#ecf072");
     // you can center vertically too
-    textAlign(CENTER, CENTER);
-    textSize(800);
-    textFont(spaceGrotesk);
-    text("a", 300, 300);
+    graphic.textAlign(CENTER, CENTER);
+    graphic.textSize(800);
+    graphic.textFont(spaceGrotesk);
+    graphic.text("a", 300, 300);
 }
 
 function draw(){
     backgroundColor("#ef5236");
-
-    
 
 }
