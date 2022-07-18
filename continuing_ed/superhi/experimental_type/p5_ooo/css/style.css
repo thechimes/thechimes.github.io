@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: #F96AA2;
+    background-color:#F0F0EE;
+}
+
+/*move canvas to the middle of the page*/
+canvas{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
