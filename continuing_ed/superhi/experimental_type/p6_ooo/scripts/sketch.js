@@ -16,7 +16,6 @@ function setup(){
     graphic.fill("#F96AA2");
     graphic.text("Good\nMorning", 600,300);
 
-   //noLoop();
 }
 
 function draw(){
